@@ -64,6 +64,7 @@
     display: flex;
     margin-top: 20px;
 
+
 }
 .midicon{
     width: 25px;
@@ -71,10 +72,10 @@
     margin-left: 20px;
 }
 
-}
-#bookmark{
-    margin-left: auto;
 
+.bookmark{
+    margin: 0px 20px 0px 0px;
+    margin-left: auto;
 
 }
 
@@ -128,11 +129,14 @@ p2{
       <img class="moon" src="moon.png">
 
       <div id="middleicon">
+          <div id="midcions">
           <img class="midicon" src="Vector.png">
           <img class="midicon" src="teenyicons_chat-outline.png">
           <img class="midicon" src="ion_paper-plane-outline.png">
-          <div id="bookmark">
-              <img class="bookmark" src="radix-icons_bookmark.png">
+          </div>
+
+          <div class="bookmark">
+              <img src="radix-icons_bookmark.png">
           </div>
       </div>
 
