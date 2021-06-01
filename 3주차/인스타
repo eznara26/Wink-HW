@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+      body{
+        background-color: black;
+      }
+      p{
+        color: white;
+        margin: 0 auto;
+      }
+      img{
+        width: 50px;
+        width: 50px;
+      }
+
+      #header{
+        display: flex;
+        margin: 20px;
+
+      }
+
+      #logo{
+        width: 70px;
+        height: 70px;
+      }
+      #insta{
+        margin: 2px;
+        font-family: Helvetica;
+      }
+
+      #title{
+        display: inline;
+        margin-left: 10px;
+      }
+
+      #content{
+        font-family: Helvetica;
+        font-size: 13px;
+        color: gray;
+
+      }
+
+      .star{
+        width: 14px;
+        display: inline;
+
+      }
+
+      #user{
+        display: inline;
+        text-align: center;
+        font-family: Helvetica;
+        color: grey;
+      }
+
+      .sample{
+        width: 120px;
+        left: 68px;
+        margin: 10px;
+        border-radius: 10px;
+      }
+
+      .pic{
+        display: flex;
+        margin: 10px;
+        padding: ;
+      }
+
+    </style>
+
+
+
+  </head>
+  <body>
+    <div id="header">
+      <img id="logo" src="인스타그램_로고_1920_01.png">
+      <div id="title">
+        <p id="insta">Instagram</p>
+        <p id="content">사진 및 비디오</p>
+
+
+        <div>
+          <img class="star" src="pngegg.png">
+          <img class="star" src="pngegg.png">
+          <img class="star" src="pngegg.png">
+          <img class="star" src="pngegg.png">
+          <img class="star" src="pngegg.png">
+
+          <p id="user">125만</p>
+        </div>
+
+
+
+      </div>
+    </div>
+
+  <div id="body">
+    <div class="pic">
+      <img class="sample" src="스크린샷%202021-06-01%20오후%204.12.43.png">
+      <img class="sample" src="스크린샷%202021-06-01%20오후%204.12.45.png">
+      <img class="sample" src="스크린샷%202021-06-01%20오후%204.12.50.png">
+    </div>
+
+
+  </div>
+
+
+
+  </body>
+</html>
