@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+  body{
+  }
+  #background{
+    background-color: black;
+    width: 414px;
+    height: 819px;
+  }
+  .logo{
+    width: 141px;
+    height: 39px;
+      margin: 12px 72px 12px 12px;
+  }
+
+  #top{
+      display: flex;
+      align-content: center;
+      padding-top: 10px;
+  }
+  #topicon{
+      display: flex;
+      margin: 20px;
+  }
+  .topicon{
+      margin-left: 20px;
+  }
+
+  .name{
+        color: white;
+        font-family: AppleGothic;
+      font-size: 14px;
+  }
+#header{
+    display: flex;
+    align-items: center;
+}
+
+.profile{
+    width: 36px;
+    height: 36px;
+    margin: 0px 20px 0px 20px;
+
+}
+
+  .profile2{
+      width: 20px;
+      height: 20px;
+      margin: 0px 10px 0px 30px;
+
+  }
+.moon{
+    width: 414px;
+    height: 414px;
+    margin-top: 15px;
+
+
+}
+#middleicon{
+    display: flex;
+    margin-top: 20px;
+
+}
+.midicon{
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+}
+#bookmark{
+    margin-left: auto;
+
+
+}
+
+.like{
+    display: flex;
+    color: white;
+    font-family: "KBIZforSMEsgo L";
+    font-size: 14px;
+    align-items: center;
+    margin-top: 10px;
+
+
+}
+p1{
+    color: white;
+    font-size: 13px;
+    display: flex;
+    margin: 0px 0px 5px 30px;
+    font-family: "KBIZforSMEsgo L";
+    font-weight: lighter;
+
+}
+
+p2{
+    color: grey;
+    font-family: "KBIZforSMEsgo L";
+    margin: 20px 0px 0px 30px;
+    font-size: 12px;
+}
+
+</style>
+
+
+</head>
+<body>
+  <div id="background">
+    <div id="top">
+      <img class="logo" src="인스타그램_로고%20%5B변환됨%5D-01.png">
+        <div id="topicon">
+            <img class="topicon" src="Vector-2.png">
+            <img class="topicon" src="Vector.png">
+            <img class="topicon" src="bi_plus-square.png">
+        </div>
+    </div>
+
+      <div id="header">
+          <img class="profile" src="Mask%20Group.png">
+          <p class="name"> easy1_ez</p>
+      </div>
+
+      <img class="moon" src="moon.png">
+
+      <div id="middleicon">
+          <img class="midicon" src="Vector.png">
+          <img class="midicon" src="teenyicons_chat-outline.png">
+          <img class="midicon" src="ion_paper-plane-outline.png">
+          <div id="bookmark">
+              <img class="bookmark" src="radix-icons_bookmark.png">
+          </div>
+      </div>
+
+      <div class="like">
+          <img class="profile2" src="Mask%20Group.png">
+          <p> megumi_524님 외 103명이 좋아합니다.</p>
+
+      </div>
+
+      <div class="comment">
+          <p1>megumi_524 잘 찍었다.</p1>
+          <p1>saki_3ur 포토샵?</p1>
+
+      </div>
+
+      <p2>댓글 30개 모두 보기</p2>
+
+
+
+
+
+  </div>
+
+
+
+</body>
+</html>
