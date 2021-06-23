@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        body{
+
+            background-color: black;
+        }
+        header {
+            display: flex;
+            height:100px;
+            align-items: center;
+            background-color:red;
+            color: white;
+            margin: 0 auto;
+        }
+
+        .dropbtn {
+            background-color: red;
+            width: 90px;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            margin: 10px 40px 10px 10px;
+            color: white;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: black;
+            color: black;
+            min-width: 200px;
+            border: none;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            font-family: Arial;
+        }
+
+        .dropdown-content a:hover {
+            background-color: yellow;
+            color: black;
+
+        }
+
+        .dropdown:hover .dropdown-content {display: block;}
+
+        .dropdown:hover .dropbtn {e;
+            background-color: black}
+
+        .map{
+            text-align: left;
+            margin: 0 auto
+
+
+        }
+
+        #Name{
+            font-family: Arial;
+            font-size: 30px;
+            margin-left: 30px;
+            margin-right: 50px;
+
+        }
+
+        nav {
+            font-size: 40px;
+            margin: 0 auto;
+
+            height:100px;
+            color: white;
+            align-content: center;
+            text-align: center;
+            padding: 20px 0;
+
+        }
+
+        a:link { color: white; text-decoration: none;}
+        a:visited { color: white; text-decoration: none;}
+        a:hover { color: white; text-decoration: underline;}
+        a:hover, a:active { text-decoration: none; }
+
+
+
+
+        #middle wrap{
+            display: flex;
+            margin: auto;
+        }
+
+
+
+        section{
+            height: 450px;
+            text-align: center;
+            margin: auto;
+
+        }
+
+        aside{
+            height: 250px;
+            display: flex;
+            justify-content: center;
+
+        }
+
+
+        #img{
+            height: 10px;
+            text-align: center;
+        }
+
+        #txt{
+            width: 200px;;
+            font-size: 15px;
+            padding: 60px 30px 0px 40px;
+            color: red;
+            text-align: center;
+            font-family: AppleGothic;
+        }
+
+
+
+        footer{
+            height: 100px;
+            margin-bottom: 30px;
+        }
+
+        .footer_menu_item{
+            color: grey;
+            font-family: Arial;
+            font-size: 13px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<header>
+    <div id="Name"> NINTENDO </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">TIPS</button>
+        <div class="dropdown-content">
+            <a href="#">사냥</a>
+            <a href="#">요리</a>
+            <a href="#">무기</a>
+        </div>
+    </div>
+
+
+    <div class="dropdown">
+        <button class="dropbtn">사당공략</button>
+        <div class="dropdown-content">
+            <a href="#">힘의시련</a>
+            <a href="#">검의시련</a>
+            <a href="#">일반사당</a>
+        </div>
+    </div>
+
+
+    <div class="dropdown">
+        <button class="dropbtn">DLC</button>
+        <div class="dropdown-content">
+            <a href="#">영걸들의 노래</a>
+            <a href="#">의상</a>
+            <a href="#">신수</a>
+        </div>
+    </div>
+
+    <div class="map">
+        <a href="https://www.zeldadungeon.net/breath-of-the-wild-interactive-map/">Hiral MAP</a>
+    </div>
+
+
+</header>
+
+<nav>
+    <img src="ㅇㅇ.jpg" width="200px">
+</nav>
+
+<div id="middle wrap">
+    <section>
+        <img src="unnamed.jpg" width="700px"  >
+
+    </section>
+
+
+    <aside>
+        <div id="img">
+            <a href="https://youtu.be/Pi-MRZBP91I">
+                <img src="maxresdefault.jpg" width="400px">
+        </div>
+        <div id="txt">Sequel to The Legend of Zelda: Breath of the Wild - E3 2021 Teaser - Nintendo Direct
+            <br>
+            <br>
+            Click!
+
+
+        </div>
+    </aside>
+</div>
+
+<footer>
+<ul class="footer_menu">
+    <li>
+        <a style="font-size: 15px" class="footer_menu_item">Contact</a>
+    </li>
+    <li>
+        <a class="footer_menu_item">Phone : 010-1234-5678</a>
+    </li>
+    <li>
+        <a class="footer_menu_item">E-mail : eznara26@kookmin.ac.kr</a>
+    </li>
+    <p style="color: gray">
+        Copyright. Jiown. All Rights Reserved.
+    </p>
+</ul>
+
+</footer>
+
+</body>
+</html>
