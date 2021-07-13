@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!--     how you name your page in tab -->
+      <title>Easy1</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+      <script src="TEXTjava.js"></script>
+      <!-- import the webpage's stylesheet -->
+      <link rel="stylesheet" href="css/stylecontact.css">
+       <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Rajdhani&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Sarala&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+      <style> a { text-decoration:none ; color:#000000} </style>
+
+      <script>
+          jQuery(function($) {
+              $("body").css("display", "none");
+              $("body").fadeIn(2000);
+              $("a.transition").click(function(event){
+                  event.preventDefault();
+                  linkLocation = this.href;
+                  $("body").fadeOut(1000, redirectPage);
+              });
+              function redirectPage() {
+                  window.location = linkLocation;
+              }
+          });
+      </script>
+
+
+
+
+    
+  </head>  
+  
+
+    <body>
+
+
+
+    <div class="topContainer">
+        <div id="home">
+            <a href="home.html">
+                <div class="title">EASY1 STUDIO</div>
+            </a>
+                    <h2>INDUSTRIAL DESIGN</h2>
+            <div id="menu">
+                <div class="intro">INTRO</div>
+            <a href="contents1.html">
+                <div class="project">PROJECT</div>
+            </a>
+                <div class="contact">CONTACT</div>
+            </div>  
+        </div>
+        
+            <div id="right">
+                <div class ="r1">
+                <img src="images/profile.jpg" style="width:20vw;, display:flex; margin: 0;">
+                 
+                </div>
+            </div>
+            <div class="r2">
+                <h1>Jiwon Lee</h1>
+                 <p> I'm industrial designer.
+                Kookmin University</p>
+
+
+
+                <form id="Event" method="post" name="hide_and_show_form">
+
+                 <a href="https://twitter.com/avril2140" target="_blank">
+                     <input id="sss" name="hide_btn" type="button" value="twitter" onclick="view(this.value);">
+                     <div id="display_btn" style="display: none;"></div>
+                </a>
+
+                <a href="https://www.instagram.com/easy1_ez/" target="_blank">
+                    <input id="sss" name="hide_btn" type="button" value="Instagram" onclick="view(this.value);">
+                    <div id="display_btn" style="display: none;"></div>
+                </a>
+
+                <a href="https://www.behance.net/eznara26c74a" target="_blank">
+                    <input id="sss" name="hide_btn" type="button" value="Behance" onclick="view(this.value);">
+                    <div id="display_btn" style="display: none;"></div>
+                </a>
+
+                </form>
+
+
+            </div>   
+    </div>
+        
+        
+         

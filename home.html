@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!--     how you name your page in tab -->
+      <title>Easy1</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- import the webpage's stylesheet -->
+      <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Rajdhani&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Sarala&display=swap" rel="stylesheet">
+      <style> a { text-decoration:none ; color:#000000} </style>
+
+      <script>
+          jQuery(function($) {
+              $("body").css("display", "none");
+              $("body").fadeIn(2000);
+              $("a.transition").click(function(event){
+                  event.preventDefault();
+                  linkLocation = this.href;
+                  $("body").fadeOut(1000, redirectPage);
+              });
+              function redirectPage() {
+                  window.location = linkLocation;
+              }
+          });
+      </script>
+
+
+  </head>
+
+
+    <body>
+
+            
+    <div class="topContainer">
+        <div id="home">
+                <div class="title">EASY1 STUDIO</div>
+                    <h2>INDUSTRIAL DESIGN</h2>
+        <div id="menu">
+                <div class="intro">INTRO</div>
+            <a href="contents1.html">
+                <div class="project">PROJECT</div>
+            </a>
+            <a href="contact.html">
+                <div class="contact">CONTACT</div>
+            </a>
+        <div class="icon">
+            <div class="i1">
+            <img src="images/icon-2.png" style=" max-width:30px;">
+                </div>
+            <div class="i2">
+             <a href="https://twitter.com/avril2140">
+            <img src="images/icon.png" style=" max-width:30px;">
+                </a>
+                </div>
+            <div class="i3">
+              <a href="https://www.behance.net/eznara26c74a">
+            <img src="images/icon-3.png" style=" max-width:30px;">
+                </a>
+                </div>
+
+            </div>
+        </div>  
+    </div>
+            
+        <div id="right">
+            <div class ="r1">
+                <h1>APPS</h1>
+                <div class="olink">
+                    <a href="contents1.html">
+                    <img src="images/olink.png" align="center">
+                    </a>
+                        <p>-connecting the Olympics and people with applications. </p>
+                </div>
+                
+                <div class="uni">
+                    <img src="images/uni.png" align="center">
+                        <p>-Uni senbae is app for univ. students.</p>
+                </div>
+                <div class="cell">
+                    <img src="images/cellcircle.png">
+                        <p>-The trip for self studying.</p>
+                </div>
+                <div class="blend">
+                    <img src="images/blend.png">
+                        <p>-Incense App project</p>
+                </div>
+            </div>
+            
+            
+            
+            
+            <div class ="r2">
+                <h1>PRODUCT</h1>
+                <div class="pop">
+                    <img src="images/popbox.png">
+                        <p>-The special box for you.</p>
+                </div>
+                <div class="lyft">
+                    <img src="images/lift.png">
+                        <p>-UX/UI design project</p>
+                </div>
+                <div class="speaker">
+                    <img src="images/speaker.png">
+                        <p>-Renewal design project</p>
+                </div>
+                <div class="yoshi">
+                    <img src="images/rider.png">
+                        <p>-Game project.</p>
+
+                </div>
+            </div>
+        
+            
+            <div class ="r3">
+                <div class="cardbot">
+                    <img src="images/cardbot.png">
+                    <p>-User interface design project.</p>
+                    <h1>EXHIBITION</h1>
+                        <div class="force">
+                        <img src="images/force.png">
+                        <p>-emoticon exhibiton</p>
+                        </div>
+                        <div class="coin">
+                        <img src="images/incert.png">
+                        <p>-pixel art exhibiton</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            
+        <div id="bottom">
+                <audio controls autoplay loop>
+                    <source src="music/1.mp3">
+                </audio>
+    
+        </div>
+            
+
+
+
+
+
+      
+      
+    </body>
+</html>

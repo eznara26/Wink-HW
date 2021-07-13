@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!--     how you name your page in tab -->
+      <title>Easy1</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- import the webpage's stylesheet -->
+      <link rel="stylesheet" href="css/style2.css">
+       <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Rajdhani&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Sarala&display=swap" rel="stylesheet">
+      <style> a { text-decoration:none ; color:#000000} </style>
+
+      <script>
+          jQuery(function($) {
+              $("body").css("display", "none");
+              $("body").fadeIn(2000);
+              $("a.transition").click(function(event){
+                  event.preventDefault();
+                  linkLocation = this.href;
+                  $("body").fadeOut(1000, redirectPage);
+              });
+              function redirectPage() {
+                  window.location = linkLocation;
+              }
+          });
+      </script>
+
+
+  </head>  
+  
+
+    <body>
+       
+    <div class="topContainer">
+        <div id="home">
+            <a href="home.html">
+                <div class="title">EASY1 STUDIO</div>
+            </a>
+                    <h2>INDUSTRIAL DESIGN</h2>
+        <div id="menu">
+                <div class="intro">INTRO</div>
+                <div class="project">PROJECT</div>
+            <a href="contact.html">
+                <div class="contact">CONTACT</div>
+            </a>
+            
+        </div>  
+        <div class="icon">
+            <div class="i1">
+            <img src="images/icon-2.png" style=" max-width:30px;">
+                </div>
+            <div class="i2">
+             <a href="https://twitter.com/avril2140">
+            <img src="images/icon.png" style=" max-width:30px;">
+                </a>
+                </div>
+            <div class="i3">
+              <a href="https://www.behance.net/eznara26c74a">
+            <img src="images/icon-3.png" style=" max-width:30px;">
+                </a>
+                </div>
+
+            </div>
+        
+        </div>
+        
+         <div id="right">
+            <div class ="content">
+                <h1>OLINK</h1>
+                <h3>Connecting the Olympics and people with applications. </h3>
+                
+                <a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)" style="font-size: 7vw; line-height: 1em;"> 
+                +
+                </a><div class="text" style="DISPLAY: none">
+                While playing games, the players are sure, but the audience watching at the venue 's on TV is also serious. The kind of time, like half time, between the competitions is when the audience wants to get rest.
+                <br>In
+                such a case, OLYNK will provide people with something like: OLYNK is an application that links people and people around the world. By using AR (VR) , you can send a message to the country you support with the infinite number of balls (objects) on the screen.
+                </div>
+                
+                
+                
+                
+                <img src="images/0001.jpg" style="max-width:70vw; height:auto;">
+                <img src="images/stdium%20gif.gif" style="width:70vw; height:auto;">
+                <img src="images/0003.jpg" style="max-width:70vw; height: auto;">
+                <img src="images/0004.jpg" style="max-width:70vw; height: auto;">
+            
+                
+                
+                
+            </div>
+        </div>
+        <a href="home.html">
+        <img src="images/x.png" style="max-height: 2vw;, margin-top: 2vw;">
+        </a>
+
+    </div>
+
+    </body>
+    
+    
+    
+</html>
+
